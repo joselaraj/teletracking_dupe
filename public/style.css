@@ -12,6 +12,16 @@ html{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
+.register-box{
+    width: 300px;
+    margin: 100px auto; 
+    padding: 20px;
+    border: 1px #88B04B; 
+    border-radius: 10px;
+    background-color: #31a35c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
 .login-box h1{
     margin-bottom: 20px;
     text-align: center;
