@@ -1,0 +1,51 @@
+html{
+    background-color:white;
+}
+
+.login-box{
+    width: 300px;
+    margin: 100px auto; 
+    padding: 20px;
+    border: 1px #88B04B; 
+    border-radius: 10px;
+    background-color: #31a35c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.login-box h1{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+body {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.links-container {
+    text-align: center; /* Center-align the links */
+    margin-top: 10px; /* Add some spacing above the links */
+}
+
+.links-container a {
+    color: #000000; /* Adjust link color */
+    text-decoration: none; /* Remove underline */
+    margin: 5px 0; /* Add spacing between links */
+    display: inline-block; /* Ensure proper spacing */
+}
+
+.links-container a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+body {
+    background-image: url('/public/assets/background.png');
+    
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+}
